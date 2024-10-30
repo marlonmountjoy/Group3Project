@@ -37,6 +37,11 @@ letter-spacing: 1.5px;
     letter-spacing: 1px;
 }
 
+.header-left-p a{
+    font-size: 10px;
+    letter-spacing: 1.5px;
+}
+
 .header-left-p span{
     color: yellow;
     font-size: 10px;
@@ -100,4 +105,53 @@ letter-spacing: 1.5px;
 .more{
     position: relative;
     margin-top: 17px;
+}
+
+.cart{
+    margin-top: 17px;
+    margin-right: 60px;
+}
+
+.none{
+    display: none;
+}
+
+.flex{
+    display: flex;
+}
+
+.more-icon{
+    color: #2874f0;
+    margin-left: 15px;
+    padding: 20px;
+}
+
+.more_lan{
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.pointer{
+    width: 20px;
+    height: 20px;
+    background: white;
+    transform: rotate(45deg);
+    position: relative;
+    top: 10px;
+    left: 80%;
+}
+
+.fa-angle-down:hover{
+    transform: rotate(180deg);
+}
+
+.more_dropdown, .login_dropdown{
+    position: relative;
+    top: 12px;
+}
+
+.login_dropdown_list{
+    
 }
