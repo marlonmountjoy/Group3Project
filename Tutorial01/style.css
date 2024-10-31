@@ -169,9 +169,13 @@ letter-spacing: 1.5px;
     cursor: pointer;
 }
 
-.fa-solid{
+.login_drop_li .fa-solid {
     color: #2874f0;
     padding-right: 10px;
+}
+
+.login_drop_li:hover{
+    background-color: white;
 }
 
 .login_drop_li:first-child{
@@ -184,4 +188,33 @@ letter-spacing: 1.5px;
 
 .login_drop_li:last-child{
     padding: 20px;
+}
+
+.login:hover .login_dropdown, .more:hover .more_dropdown{
+    display: block;
+}
+
+.sign_up{
+    text-decoration: none;
+    color: #2874f0;
+}
+
+.sign_up:hover{
+    text-decoration: underline;
+}
+
+.sign_li{
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.new_login{
+    font-weight: bold;
+}
+
+.cart_lan .fa-cart-shopping{
+    padding-right: 12px;
+    padding-top: 20px;
+    color: white;
+    cursor: pointer;
 }
