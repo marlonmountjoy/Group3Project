@@ -136,7 +136,7 @@ letter-spacing: 1.5px;
 .pointer{
     width: 20px;
     height: 20px;
-    background: white;
+    background: black;
     transform: rotate(45deg);
     position: relative;
     top: 10px;
@@ -162,7 +162,7 @@ letter-spacing: 1.5px;
     transform: translate(-30px)
 }
 
-.login_drop_list{
+.login_drop_li{
     padding: 16px 20px;
     border-bottom: 1px solid white;
     font-size: 14px;
@@ -180,10 +180,6 @@ letter-spacing: 1.5px;
 
 .login_drop_li:first-child{
     padding: 20px;
-}
-
-.login_drop_li:last-child:hover{
-    color: white;
 }
 
 .login_drop_li:last-child{
@@ -217,4 +213,75 @@ letter-spacing: 1.5px;
     padding-top: 20px;
     color: white;
     cursor: pointer;
+}
+/*-----Category Section-----*/
+.category-row{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+.category-col{
+    padding: 10px 0;
+    cursor: pointer;
+    color: rgb(85,83,83);
+}
+
+.category-col img{
+    width: 64px;
+    height: 64px;
+}
+
+.category-col h5:hover{
+    color: #2874f0;
+}
+
+/*-----Category_Dropdown-----*/
+
+.dropdown{
+    background-color: rgb(221, 228,234);
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgb(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content .header{
+    background: gainsboro;
+    padding: 0px;
+    color: white;
+}
+
+.col{
+    float: left;
+    width: 33.33%;
+    padding: 8px;
+    background-color: white;
+    height: auto;
+}
+
+.col a{
+    float: left;
+    color: black;
+    padding: 8px;
+    border-radius: 2px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.col a:hover{
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
 }
